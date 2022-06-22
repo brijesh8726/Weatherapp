@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+.box{
+    background: WHITE;
+    width: 30vh;
+    height: 50vh;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 3rem black;
+    position: relative;
+    overflow: hidden;
+    
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+
+}
+.weathercon{
+           height: auto;
+           width: auto;
+            /* align-items: center;
+            justify-content: center; */
+            margin: auto !important;
+            display: flex;           
+}
+.info{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.cent{
+    margin: auto !important;
+}

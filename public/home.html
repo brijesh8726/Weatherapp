@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link type="text/css" rel="stylesheet" href="weather.css">
+
+    <title>Weather App</title>
+ 
+</head>
+<body>
+    <div class="box">
+      
+
+        <div class="weathercon">
+            <i class="fa-solid fa-sun fa-8x" style="color:yellow;"></i>
+        </div>
+
+        <div class="info">
+            <h1 class="location cent"><i class="fa-solid fa-location-arrow"></i>&nbsp;{%location%},{%country%}</h1>
+            <p class="mydate cent" id="date"></p>
+            <h2 class="temp cent"> {%tempval%}C </h2>
+            <h5 class="tempmin_max cent">Min {%tempmin%}  || Max {%tempmax%}</h5>
+        </div>
+    </div>
+    <script src="javascript.js"></script>    
+   
+</body>
+</html>
